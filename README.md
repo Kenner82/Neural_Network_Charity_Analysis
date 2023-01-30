@@ -32,6 +32,6 @@ Using a dataset of over 34,000 organizations that were funded by a fictitious ch
 # Summary
 Future attempts to increase model performance could include addressing the "INCOME_AMT" column. The majority of responses are listed as "0", which does not fall into any reasonable range. There is also no bucket to incorporate the 500,000-1M range. Whether or not it is possible to reconfigure the currently available data, this could be addressed when collecting data moving forward.
 
-<img width="500" alt="income" src="https://user-images.githubusercontent.com/111674383/215398494-60538eaf-8af4-4f6a-bb1b-30eabf08b8aa.png">
+<p align="center"><img width="550" alt="income" src="https://user-images.githubusercontent.com/111674383/215398494-60538eaf-8af4-4f6a-bb1b-30eabf08b8aa.png"></p>
 
 Additionally, a random forest model could be attempted and compared to the results achieved with the neural network.
