@@ -19,7 +19,14 @@ Using a dataset of over 34,000 organizations that were funded by a fictitious ch
 
 <p align="center"><img width="550" alt="loss_accuracy" src="https://user-images.githubusercontent.com/111674383/215395549-e0d2db34-e4a5-4b50-a488-8af1cb56b7a5.png"></p>
 
-* Numerous steps were taken to try and increase the target model performance. 
-  * "INCOME_AMT" and/or "ASK_AMT" columns were dropped, the 
+* Numerous steps were taken to try and increase the target model performance, alone and in various combinations with one another.
+  * "INCOME_AMT" and/or "ASK_AMT" columns were dropped
+  * The cut-off values for binning "APPLICATION_TYPE" and/or "CLASSIFICATION" were increased and decreased
+  * The number of hidden layers were increased and decreased, with values ranging from 1-4
+  * The number of neurons in each layer were increased and decreased, with values ranging from 1 - 100
+  * The output layer activation was tested using "Relu" and hidden layer activations were tested with "Sigmoid"
+  * Number of epochs was increased and decreased, ranging from 50-250
+
+* While some feature combinations decreased accuracy by less than 1%, none of them increased the model performance to the target value.
 
 # Summary
