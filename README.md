@@ -19,6 +19,7 @@ Using a dataset of over 34,000 organizations that were funded by a fictitious ch
 
 <p align="center"><img width="550" alt="loss_accuracy" src="https://user-images.githubusercontent.com/111674383/215395549-e0d2db34-e4a5-4b50-a488-8af1cb56b7a5.png"></p>
 
-
+* Numerous steps were taken to try and increase the target model performance. 
+  * "INCOME_AMT" and/or "ASK_AMT" columns were dropped, the 
 
 # Summary
