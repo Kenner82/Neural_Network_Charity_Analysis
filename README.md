@@ -6,7 +6,7 @@ Using a dataset of over 34,000 organizations that were funded by a fictitious ch
 
 ## Data Preprocessing
 * The target variable for this model is the "IS_SUCCESSFUL" column, which indicates whether or not an organization was successful after receiving funding from Alphabet Soup.
-* Prior to processing the data, the "NAME" and "EIN" columns were removed, as identificaiton data was deemed an unneccessary variable for predicting success.
+* Prior to processing the data, the "NAME" and "EIN" columns were removed, as identification data was deemed an unnecessary variable for predicting success.
 * Two columns ("APPLICATION_TYPE" and "CLASSIFICATION") were evaluated for the number of responses at each value. Rare values were binned and labeled "Other" to prevent outliers from skewing the results.
 * Columns with categorical data ("APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", "INCOME_AMT", and "SPECIAL_CONSIDERATIONS") were encoded using OneHotEncoder and converted to numerical data.
 
@@ -34,4 +34,4 @@ Future attempts to increase model performance could include addressing the "INCO
 
 <img width="500" alt="income" src="https://user-images.githubusercontent.com/111674383/215398494-60538eaf-8af4-4f6a-bb1b-30eabf08b8aa.png">
 
-Additionally, a random forest model could be attempted and compared to the results acheived with the neural network.
+Additionally, a random forest model could be attempted and compared to the results achieved with the neural network.
